@@ -1,0 +1,6 @@
+framework module Pods_JCY_HOME {
+  umbrella header "Pods-JCY_HOME-umbrella.h"
+
+  export *
+  module * { export * }
+}

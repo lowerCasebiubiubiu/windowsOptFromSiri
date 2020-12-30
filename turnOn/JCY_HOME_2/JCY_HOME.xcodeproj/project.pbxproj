@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293FF8BFD349F63957753484 /* libPods-JCY_HOME.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34C99C8B17D29F302B021149 /* libPods-JCY_HOME.a */; };
+		2C821BDC259B7FBD00C6EDB6 /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C821BDB259B7FBD00C6EDB6 /* IntentHandler.m */; };
+		2C821BF1259B7FBD00C6EDB6 /* HomeOperation.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2C821BD8259B7FBD00C6EDB6 /* HomeOperation.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2C821BFC259B7FFF00C6EDB6 /* HomeSiriOperation.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C821BFB259B7FFF00C6EDB6 /* HomeSiriOperation.intentdefinition */; };
+		2C821BFD259B7FFF00C6EDB6 /* HomeSiriOperation.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 2C821BFB259B7FFF00C6EDB6 /* HomeSiriOperation.intentdefinition */; };
+		2C821C07259B80BB00C6EDB6 /* WindowsIntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C821C06259B80BB00C6EDB6 /* WindowsIntentHandler.m */; };
+		2C821C08259B80BB00C6EDB6 /* WindowsIntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C821C06259B80BB00C6EDB6 /* WindowsIntentHandler.m */; };
+		2C821C10259B826A00C6EDB6 /* JCYWolMannger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12E45259B244200A1192E /* JCYWolMannger.m */; };
+		2CB00F2E259B881000DD5BCB /* JCYWolMannger.h in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12E44259B244200A1192E /* JCYWolMannger.h */; };
+		2CC12E46259B244200A1192E /* JCYWolMannger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12E45259B244200A1192E /* JCYWolMannger.m */; };
+		2CC12E4C259B26F000A1192E /* JCYInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12E4B259B26F000A1192E /* JCYInputView.m */; };
+		2CC12E50259B271400A1192E /* JCYInputLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC12E4F259B271400A1192E /* JCYInputLabel.m */; };
+		2CD170AD2599C66A001E6598 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD170AC2599C66A001E6598 /* AppDelegate.m */; };
+		2CD170B02599C66A001E6598 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD170AF2599C66A001E6598 /* SceneDelegate.m */; };
+		2CD170B32599C66A001E6598 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD170B22599C66A001E6598 /* ViewController.m */; };
+		2CD170B62599C66A001E6598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD170B42599C66A001E6598 /* Main.storyboard */; };
+		2CD170B82599C66D001E6598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CD170B72599C66D001E6598 /* Assets.xcassets */; };
+		2CD170BB2599C66D001E6598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CD170B92599C66D001E6598 /* LaunchScreen.storyboard */; };
+		2CD170BE2599C66D001E6598 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD170BD2599C66D001E6598 /* main.m */; };
+		2CD170D52599D498001E6598 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD170D32599D498001E6598 /* Intents.framework */; };
+		2CD170D62599D498001E6598 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD170D42599D498001E6598 /* IntentsUI.framework */; };
+		BEDDEFA39EB9CE7B3580784E /* libPods-HomeOperation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B01DB369577EDFE2FE9CD067 /* libPods-HomeOperation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C821BEF259B7FBD00C6EDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CD170A02599C668001E6598 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C821BD7259B7FBD00C6EDB6;
+			remoteInfo = HomeOperation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CC12E7A259B59D100A1192E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2C821BF1259B7FBD00C6EDB6 /* HomeOperation.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01042413E10ED4EEE8DCBB9F /* Pods-HomeOperation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeOperation.release.xcconfig"; path = "Target Support Files/Pods-HomeOperation/Pods-HomeOperation.release.xcconfig"; sourceTree = "<group>"; };
+		19A570878500A7E865E9C885 /* Pods-JCY_HOME.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCY_HOME.debug.xcconfig"; path = "Target Support Files/Pods-JCY_HOME/Pods-JCY_HOME.debug.xcconfig"; sourceTree = "<group>"; };
+		2C821BD8259B7FBD00C6EDB6 /* HomeOperation.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HomeOperation.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C821BDA259B7FBD00C6EDB6 /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
+		2C821BDB259B7FBD00C6EDB6 /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
+		2C821BDD259B7FBD00C6EDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C821BFB259B7FFF00C6EDB6 /* HomeSiriOperation.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = HomeSiriOperation.intentdefinition; sourceTree = "<group>"; };
+		2C821C05259B80BB00C6EDB6 /* WindowsIntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WindowsIntentHandler.h; sourceTree = "<group>"; };
+		2C821C06259B80BB00C6EDB6 /* WindowsIntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WindowsIntentHandler.m; sourceTree = "<group>"; };
+		2CB01057259CADB400DD5BCB /* JCY_HOME.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JCY_HOME.entitlements; sourceTree = "<group>"; };
+		2CB0105A259CAF5100DD5BCB /* HomeOperation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HomeOperation.entitlements; sourceTree = "<group>"; };
+		2CC12E44259B244200A1192E /* JCYWolMannger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCYWolMannger.h; sourceTree = "<group>"; };
+		2CC12E45259B244200A1192E /* JCYWolMannger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCYWolMannger.m; sourceTree = "<group>"; };
+		2CC12E4A259B26F000A1192E /* JCYInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCYInputView.h; sourceTree = "<group>"; };
+		2CC12E4B259B26F000A1192E /* JCYInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCYInputView.m; sourceTree = "<group>"; };
+		2CC12E4E259B271400A1192E /* JCYInputLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCYInputLabel.h; sourceTree = "<group>"; };
+		2CC12E4F259B271400A1192E /* JCYInputLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCYInputLabel.m; sourceTree = "<group>"; };
+		2CD170A82599C66A001E6598 /* JCY_HOME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCY_HOME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD170AB2599C66A001E6598 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CD170AC2599C66A001E6598 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CD170AE2599C66A001E6598 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2CD170AF2599C66A001E6598 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2CD170B12599C66A001E6598 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CD170B22599C66A001E6598 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CD170B52599C66A001E6598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CD170B72599C66D001E6598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CD170BA2599C66D001E6598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CD170BC2599C66D001E6598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD170BD2599C66D001E6598 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CD170D32599D498001E6598 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		2CD170D42599D498001E6598 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		34C99C8B17D29F302B021149 /* libPods-JCY_HOME.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JCY_HOME.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E2442A965C950F3F359EE6 /* Pods-JCY_HOME.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCY_HOME.release.xcconfig"; path = "Target Support Files/Pods-JCY_HOME/Pods-JCY_HOME.release.xcconfig"; sourceTree = "<group>"; };
+		7756EEDFF16766401355E9B3 /* Pods-HomeOperation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeOperation.debug.xcconfig"; path = "Target Support Files/Pods-HomeOperation/Pods-HomeOperation.debug.xcconfig"; sourceTree = "<group>"; };
+		B01DB369577EDFE2FE9CD067 /* libPods-HomeOperation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HomeOperation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C821BD5259B7FBD00C6EDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDDEFA39EB9CE7B3580784E /* libPods-HomeOperation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD170A52599C66A001E6598 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD170D52599D498001E6598 /* Intents.framework in Frameworks */,
+				2CD170D62599D498001E6598 /* IntentsUI.framework in Frameworks */,
+				293FF8BFD349F63957753484 /* libPods-JCY_HOME.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C821BD9259B7FBD00C6EDB6 /* HomeOperation */ = {
+			isa = PBXGroup;
+			children = (
+				2CB0105A259CAF5100DD5BCB /* HomeOperation.entitlements */,
+				2C821BDA259B7FBD00C6EDB6 /* IntentHandler.h */,
+				2C821BDB259B7FBD00C6EDB6 /* IntentHandler.m */,
+				2C821C05259B80BB00C6EDB6 /* WindowsIntentHandler.h */,
+				2C821C06259B80BB00C6EDB6 /* WindowsIntentHandler.m */,
+				2C821BDD259B7FBD00C6EDB6 /* Info.plist */,
+			);
+			path = HomeOperation;
+			sourceTree = "<group>";
+		};
+		2CC12E48259B26BD00A1192E /* Wol */ = {
+			isa = PBXGroup;
+			children = (
+				2CC12E44259B244200A1192E /* JCYWolMannger.h */,
+				2CC12E45259B244200A1192E /* JCYWolMannger.m */,
+			);
+			path = Wol;
+			sourceTree = "<group>";
+		};
+		2CC12E49259B26CE00A1192E /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				2CC12E4A259B26F000A1192E /* JCYInputView.h */,
+				2CC12E4B259B26F000A1192E /* JCYInputView.m */,
+				2CC12E4E259B271400A1192E /* JCYInputLabel.h */,
+				2CC12E4F259B271400A1192E /* JCYInputLabel.m */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		2CC12E53259B482E00A1192E /* Siri */ = {
+			isa = PBXGroup;
+			children = (
+				2C821BFB259B7FFF00C6EDB6 /* HomeSiriOperation.intentdefinition */,
+			);
+			path = Siri;
+			sourceTree = "<group>";
+		};
+		2CD1709F2599C668001E6598 = {
+			isa = PBXGroup;
+			children = (
+				2CD170AA2599C66A001E6598 /* JCY_HOME */,
+				2C821BD9259B7FBD00C6EDB6 /* HomeOperation */,
+				2CD170A92599C66A001E6598 /* Products */,
+				BAED77221CC40DB99DE32F9B /* Pods */,
+				C88A7BEFEB1718B7436F342E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD170A92599C66A001E6598 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD170A82599C66A001E6598 /* JCY_HOME.app */,
+				2C821BD8259B7FBD00C6EDB6 /* HomeOperation.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD170AA2599C66A001E6598 /* JCY_HOME */ = {
+			isa = PBXGroup;
+			children = (
+				2CB01057259CADB400DD5BCB /* JCY_HOME.entitlements */,
+				2CD170AB2599C66A001E6598 /* AppDelegate.h */,
+				2CD170AC2599C66A001E6598 /* AppDelegate.m */,
+				2CD170AE2599C66A001E6598 /* SceneDelegate.h */,
+				2CD170AF2599C66A001E6598 /* SceneDelegate.m */,
+				2CD170B12599C66A001E6598 /* ViewController.h */,
+				2CD170B22599C66A001E6598 /* ViewController.m */,
+				2CC12E49259B26CE00A1192E /* Edit */,
+				2CC12E48259B26BD00A1192E /* Wol */,
+				2CC12E53259B482E00A1192E /* Siri */,
+				2CD170B42599C66A001E6598 /* Main.storyboard */,
+				2CD170B72599C66D001E6598 /* Assets.xcassets */,
+				2CD170B92599C66D001E6598 /* LaunchScreen.storyboard */,
+				2CD170BC2599C66D001E6598 /* Info.plist */,
+				2CD170BD2599C66D001E6598 /* main.m */,
+			);
+			path = JCY_HOME;
+			sourceTree = "<group>";
+		};
+		BAED77221CC40DB99DE32F9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19A570878500A7E865E9C885 /* Pods-JCY_HOME.debug.xcconfig */,
+				41E2442A965C950F3F359EE6 /* Pods-JCY_HOME.release.xcconfig */,
+				7756EEDFF16766401355E9B3 /* Pods-HomeOperation.debug.xcconfig */,
+				01042413E10ED4EEE8DCBB9F /* Pods-HomeOperation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C88A7BEFEB1718B7436F342E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD170D32599D498001E6598 /* Intents.framework */,
+				2CD170D42599D498001E6598 /* IntentsUI.framework */,
+				B01DB369577EDFE2FE9CD067 /* libPods-HomeOperation.a */,
+				34C99C8B17D29F302B021149 /* libPods-JCY_HOME.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C821BD7259B7FBD00C6EDB6 /* HomeOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C821BF5259B7FBD00C6EDB6 /* Build configuration list for PBXNativeTarget "HomeOperation" */;
+			buildPhases = (
+				781B793161FF92C730F5BCB3 /* [CP] Check Pods Manifest.lock */,
+				2C821BD4259B7FBD00C6EDB6 /* Sources */,
+				2C821BD5259B7FBD00C6EDB6 /* Frameworks */,
+				2C821BD6259B7FBD00C6EDB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeOperation;
+			productName = HomeOperation;
+			productReference = 2C821BD8259B7FBD00C6EDB6 /* HomeOperation.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2CD170A72599C66A001E6598 /* JCY_HOME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD170C12599C66D001E6598 /* Build configuration list for PBXNativeTarget "JCY_HOME" */;
+			buildPhases = (
+				65FB1A914B95C4198557DFB9 /* [CP] Check Pods Manifest.lock */,
+				2CD170A42599C66A001E6598 /* Sources */,
+				2CD170A52599C66A001E6598 /* Frameworks */,
+				2CD170A62599C66A001E6598 /* Resources */,
+				2CC12E7A259B59D100A1192E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C821BF0259B7FBD00C6EDB6 /* PBXTargetDependency */,
+			);
+			name = JCY_HOME;
+			productName = JCY_HOME;
+			productReference = 2CD170A82599C66A001E6598 /* JCY_HOME.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD170A02599C668001E6598 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2C821BD7259B7FBD00C6EDB6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2CD170A72599C66A001E6598 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 2CD170A32599C668001E6598 /* Build configuration list for PBXProject "JCY_HOME" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CD1709F2599C668001E6598;
+			productRefGroup = 2CD170A92599C66A001E6598 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD170A72599C66A001E6598 /* JCY_HOME */,
+				2C821BD7259B7FBD00C6EDB6 /* HomeOperation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C821BD6259B7FBD00C6EDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD170A62599C66A001E6598 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD170BB2599C66D001E6598 /* LaunchScreen.storyboard in Resources */,
+				2CD170B82599C66D001E6598 /* Assets.xcassets in Resources */,
+				2CD170B62599C66A001E6598 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65FB1A914B95C4198557DFB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JCY_HOME-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		781B793161FF92C730F5BCB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeOperation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C821BD4259B7FBD00C6EDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB00F2E259B881000DD5BCB /* JCYWolMannger.h in Sources */,
+				2C821BFD259B7FFF00C6EDB6 /* HomeSiriOperation.intentdefinition in Sources */,
+				2C821C08259B80BB00C6EDB6 /* WindowsIntentHandler.m in Sources */,
+				2C821C10259B826A00C6EDB6 /* JCYWolMannger.m in Sources */,
+				2C821BDC259B7FBD00C6EDB6 /* IntentHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CD170A42599C66A001E6598 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD170B32599C66A001E6598 /* ViewController.m in Sources */,
+				2CC12E50259B271400A1192E /* JCYInputLabel.m in Sources */,
+				2CC12E46259B244200A1192E /* JCYWolMannger.m in Sources */,
+				2CD170AD2599C66A001E6598 /* AppDelegate.m in Sources */,
+				2C821C07259B80BB00C6EDB6 /* WindowsIntentHandler.m in Sources */,
+				2C821BFC259B7FFF00C6EDB6 /* HomeSiriOperation.intentdefinition in Sources */,
+				2CD170BE2599C66D001E6598 /* main.m in Sources */,
+				2CC12E4C259B26F000A1192E /* JCYInputView.m in Sources */,
+				2CD170B02599C66A001E6598 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C821BF0259B7FBD00C6EDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C821BD7259B7FBD00C6EDB6 /* HomeOperation */;
+			targetProxy = 2C821BEF259B7FBD00C6EDB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CD170B42599C66A001E6598 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD170B52599C66A001E6598 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CD170B92599C66D001E6598 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD170BA2599C66D001E6598 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C821BF6259B7FBD00C6EDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7756EEDFF16766401355E9B3 /* Pods-HomeOperation.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HomeOperation/HomeOperation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S82NZ5979C;
+				INFOPLIST_FILE = HomeOperation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jcy10201203.jcyhome.HomeOperation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C821BF7259B7FBD00C6EDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01042413E10ED4EEE8DCBB9F /* Pods-HomeOperation.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HomeOperation/HomeOperation.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S82NZ5979C;
+				INFOPLIST_FILE = HomeOperation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jcy10201203.jcyhome.HomeOperation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CD170BF2599C66D001E6598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CD170C02599C66D001E6598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD170C22599C66D001E6598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19A570878500A7E865E9C885 /* Pods-JCY_HOME.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JCY_HOME/JCY_HOME.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S82NZ5979C;
+				INFOPLIST_FILE = JCY_HOME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jcy10201203.jcyhome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CD170C32599C66D001E6598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41E2442A965C950F3F359EE6 /* Pods-JCY_HOME.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = JCY_HOME/JCY_HOME.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S82NZ5979C;
+				INFOPLIST_FILE = JCY_HOME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.jcy10201203.jcyhome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C821BF5259B7FBD00C6EDB6 /* Build configuration list for PBXNativeTarget "HomeOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C821BF6259B7FBD00C6EDB6 /* Debug */,
+				2C821BF7259B7FBD00C6EDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD170A32599C668001E6598 /* Build configuration list for PBXProject "JCY_HOME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD170BF2599C66D001E6598 /* Debug */,
+				2CD170C02599C66D001E6598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD170C12599C66D001E6598 /* Build configuration list for PBXNativeTarget "JCY_HOME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD170C22599C66D001E6598 /* Debug */,
+				2CD170C32599C66D001E6598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CD170A02599C668001E6598 /* Project object */;
+}
